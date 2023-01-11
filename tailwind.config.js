@@ -64,7 +64,7 @@ module.exports = {
         'wiggle': 'wiggle 1s ease-in-out infinite',
         'spin-slow': 'spin 3s linear infinite',
         'more': 'more 1s linear infinite',
-        'space': 'avos 3s ease-in infinite',
+        'space': 'avos 3s ease-in-out infinite',
         'swosh': 'slide 1s ease-in 1'
       },
     },
