@@ -1,0 +1,294 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bwarasa</title>
+  <link href="./dist/output.css" rel="stylesheet">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="absolute top-0 left-0 z-10 w-full h-fit py-4 bg-secondary bg-opacity-30">
+        <div class="container mx-auto">
+            <div class="w-full flex justify-between items-center">
+                <div class="font-semibold text-primary text-2xl"><a href="#">Bwa<span class="text-secondary">rasa</span></a></div>
+                <div class="space-x-2 text-base">
+                    <a href="#" class="hover:text-primary">Home</a>
+                    <a href="#about" class="hover:text-primary hidden md:inline">About</a>
+                    <a href="#kualitas" class="hover:text-primary hidden md:inline">Kualitas</a>
+                    <a href="#pesan" class="hover:text-primary hidden md:inline">Harga</a>
+                    <a href="#pesan" class="bg-secondary py-[2px] p-1 text-white rounded-lg hover:bg-primary">Pesan</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <!-- Hero section -->
+    <section id="home" class="container mx-auto">
+        <div class="w-full h-screen flex flex-col md:flex-row justify-center md:justify-between items-center">
+            <div class="w-full md:w-1/2 flex justify-end py-8 md:order-2">
+                <div class="w-3/5 md:w-3/2 lg:w-1/2 h-64 md:h-96 bg-secondary rounded-tl-[44px] md:rounded-tl-[64px] rounded-r-xl md:rounded-r-3xl relative">
+                    <div class="absolute w-64 md:w-96 lg:w-[32rem] right-0 bottom-6 lg:-bottom-4">
+                        <img src="./dist/img/hero/burasa-hero.png" alt="Bwarasa Perdi" class="w-64 md:w-96 lg:w-[32rem]">
+                    </div>
+                    <div class="absolute w-16 md:w-24 lg:w-32 -right-4 md:-right-6 lg:-right-12 top-3">
+                        <img src="./dist/img/hero/burasa-hero-2.png" alt="Bwarasa Perdi" class="w-16 md:w-24 lg:w-32">
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 space-y-4 md:space-y-6">
+                <div class="space-y-2">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-semibold">Nikmati pagi dengan Bwarasa</h1>
+                    <h2 class="text-xl md:text-2xl font-normal">Ciptakan cita rasa yang tak terlupakan</h2>
+                </div>
+                <button class="bg-secondary px-8 md:px-12 py-1 rounded-lg tracking-wider hover:bg-primary">
+                    <a href="#pesan" class="font-medium text-white text-xl">Pesan Sekarang</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- End hero -->
+
+    <!-- About section -->
+    <section id="about" class="w-full bg-primary h-fit">
+        <div class="container mx-auto">
+            <div class="w-full flex flex-col gap-6 md:gap-2 lg:gap-0 md:flex-row md:items-center py-24 px-6">
+                <div class="md:w-5/12 flex justify-center">
+                    <div class="w-52 md:w-72 aspect-square bg-secondary rounded-xl relative">
+                        <div class="w-64 md:w-80 absolute top-0 right-0">
+                            <img src="./dist/img/about/burasa-about.png" alt="Bwarasa" class="w-full">
+                        </div>
+                        <div class="w-12 md:w-24 absolute bottom-0 right-0">
+                            <img src="./dist/img/about/burasa-about-2.png" alt="Bwarasa" class="w-full">
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-7/12 space-y-2">
+                    <h3 class="font-medium text-2xl md:text-4xl">Bwarasa kue khas bugis</h3>
+                    <p class="md:w-11/12 font-normal text-base text-greyness md:text-lg text-justify">
+                        Kue ini nikmat dan gurih dengan bahan dasar yang legit gurih khas kelapa. 
+                        Kue ini biasanya dihidangkan ketika ada acara atau perayaan penting bagi masyarakat sulawesi. 
+                        Namun, sekarang kue ini bisa anda nikmati tanpa harus menunggu acara-acara tersebut.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End about -->
+
+    <!-- Quality section -->
+    <section id="kualitas" class="container mx-auto">
+        <div class="w-full flex flex-col items-center py-24 space-y-5 md:space-y-8">
+            <h3 class="font-semibold text-xl md:text-2xl">Kualitas Bwarasa</h3>
+            <div class="w-full px-2 md:px-8 lg:px-36 flex flex-col md:flex-row justify-between gap-8">
+                <div class="md:w-1/2 space-y-8">
+                    <div class="w-full flex gap-3 md:gap-6 items-center">
+                        <div class="w-fit h-fit bg-secondary rounded-lg md:rounded-xl p-1 md:p-2 hover:bg-primary transition-colors">
+                            <img src="./dist/img/kualitas/toaster2.svg" alt="toaster-icon" class="w-12 h-12 md:w-16 md:h-16">
+                        </div>
+                        <div class="basis-4/5">
+                            <h5 class="font-medium text-base md:text-lg">Rasa yang khas</h5>
+                            <p class="text-sm md:text-base text-greyness font-normal leading-tight md:leading-snug">Setiap gigitan dipastikan memberikan kenikmatan yang sesuai</p>
+                        </div>
+                    </div>
+                    <div class="w-full flex gap-3 md:gap-6 items-center">
+                        <div class="w-fit h-fit bg-secondary rounded-lg md:rounded-xl p-1 md:p-2 hover:bg-primary transition-colors">
+                            <img src="./dist/img/kualitas/cutter.svg" alt="toaster-icon" class="w-12 h-12 md:w-16 md:h-16">
+                        </div>
+                        <div class="basis-4/5">
+                            <h5 class="font-medium text-base md:text-lg">Gurih Kelapa</h5>
+                            <p class="text-sm md:text-base text-greyness font-normal md:leading-snug">Komposisi setiap bijih diperhitungkan dengan komposis yang pas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 space-y-8">
+                    <div class="w-full flex gap-3 md:gap-6 items-center">
+                        <div class="w-fit h-fit bg-secondary rounded-lg md:rounded-xl p-1 md:p-2 hover:bg-primary transition-colors">
+                            <img src="./dist/img/kualitas/glove.svg" alt="toaster-icon" class="w-12 h-12 md:w-16 md:h-16">
+                        </div>
+                        <div class="basis-4/5">
+                            <h5 class="font-medium text-base md:text-lg">100% Higenis</h5>
+                            <p class="text-sm md:text-base text-greyness font-normal md:leading-snug">Proses pembuatan dilakukan dengan memperhatikan kebersihan makanan</p>
+                        </div>
+                    </div>
+                    <div class="w-full flex gap-3 md:gap-6 items-center">
+                        <div class="w-fit h-fit bg-secondary rounded-lg md:rounded-xl p-1 md:p-2 hover:bg-primary transition-colors">
+                            <img src="./dist/img/kualitas/blender.svg" alt="toaster-icon" class="w-12 h-12 md:w-16 md:h-16">
+                        </div>
+                        <div class="basis-4/5">
+                            <h5 class="font-medium text-base md:text-lg">Baru dibuat</h5>
+                            <p class="text-sm md:text-base text-greyness font-normal md:leading-snug">Kue diproduksi setiap hari dengan bahan yang terbaru</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End quality -->
+
+    <!-- Offering section -->
+    <section id="offering" class="container mx-auto">
+        <div class="flex flex-col md:flex-row py-12 md:py-24 px-4 md:px-24 bg-primary rounded-xl gap-6">
+            <div class="md:w-2/5 md:order-2 flex justify-center md:justify-end p-6 md:p-0">
+                <img src="./dist/img/siap-antar/man-delivery.svg" alt="Bwarasa-siap-antar">
+            </div>
+            <div class="md:w-3/5">
+                <div class="">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6 md:mb-10">Siap antar</h1>
+                </div>
+                <div class="space-y-6">
+                    <div class="flex space-x-3 items-center">
+                        <img src="./dist/img/siap-antar/truk.svg" alt="Bwarasa" class="w-8 md:w-10 lg:w-11">
+                        <p class="font-medium text-sm md:text-lg leading-snug">Pembelian hanya berlaku untuk daerah sekitar segeri</p>
+                    </div>
+                    <div class="flex space-x-3 items-center">
+                        <img src="./dist/img/siap-antar/keranjang.svg" alt="Bwarasa" class="w-8 md:w-10 lg:w-11">
+                        <p class="font-medium text-sm md:text-lg leading-snug">Pesan terlebih dahulu untuk memastikan ketersediaan</p>
+                    </div>
+                    <div class="flex space-x-3 items-center">
+                        <img src="./dist/img/siap-antar/invoice.svg" alt="Bwarasa" class="w-8 md:w-10 lg:w-11">
+                        <p class="font-medium text-sm md:text-lg leading-snug">Total pesanan sudah termasuk ongkir</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End offering -->
+
+    <!-- Section Pesan -->
+    <section id="pesan" class="container mx-auto">
+        <div class="flex flex-col items-center py-16 gap-8">
+            <h3 class="font-semibold text-xl md:text-2xl">Pesan Sekarang</h3>
+            <div class="flex flex-col md:flex-row justify-center gap-5">
+                <div class="p-4 md:p-2 bg-secondary rounded-xl md:rounded-2xl flex md:flex-col items-center gap-3 md:gap-0">
+                    <h5 class="font-bold text-3xl">1</h5>
+                    <p class="font-medium text-base md:w-32 text-center leading-tight">Klik pesanan yang diinginkan</p>
+                </div>
+                <div class="p-4 md:p-2 bg-secondary rounded-xl md:rounded-2xl flex md:flex-col items-center gap-3 md:gap-0">
+                    <h5 class="font-bold text-3xl">2</h5>
+                    <p class="font-medium text-base md:w-32 text-center leading-tight">Konfirmasi pesanan</p>
+                </div>
+                <div class="p-4 md:p-2 bg-secondary rounded-xl md:rounded-2xl flex md:flex-col items-center gap-3 md:gap-0">
+                    <h5 class="font-bold text-3xl">3</h5>
+                    <p class="font-medium text-base md:w-24 text-center leading-tight">Tunggu pesanan</p>
+                </div>
+                <div class="p-4 md:p-2 bg-secondary rounded-xl md:rounded-2xl flex md:flex-col items-center gap-3 md:gap-0">
+                    <h5 class="font-bold text-3xl">4</h5>
+                    <p class="font-medium text-base md:w-32 text-center leading-tight">Bayar dan nikmati bwarasa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End pesan -->
+
+    <!-- Harga -->
+    <section id="harga">
+        <div class="w-full pb-16 flex justify-center">
+            <div class="flex flex-col md:flex-row md:justify-center items-center gap-6">
+                <!-- Coba-coba -->
+                <div class="w-52 border border-primary px-4 py-4 md:px-5 rounded-xl">
+                    <h5 class="font-semibold text-xl text-center">Coba-coba</h5>
+                    <div class="py-3 space-y-[10px]">
+                        <div class="flex items-center gap-2">
+                            <img src="./dist/img/price/ceklist.svg" alt="bwarasa" class="w-6 md:w-7">
+                            <p class="font-medium text-base">30 biji bwarasa</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./dist/img/price/ceklist.svg" alt="bwarasa" class="w-6 md:w-7">
+                            <p class="font-medium text-base">Gratis antar</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./dist/img/price/ceklist.svg" alt="bwarasa" class="w-6 md:w-7">
+                            <p class="font-medium text-base">Mudah dipesan</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./dist/img/price/ceklist.svg" alt="bwarasa" class="w-6 md:w-7">
+                            <p class="font-medium text-base">Prioritas</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <p class="font-semibold text-base pl-[3px]">Rp.30.000</p>
+                        </div>
+                    </div>
+                    <button class="w-full h-fit py-1 bg-primary rounded-xl transition-colors hover:bg-secondary">
+                        <p class="font-semibold text-lg">Pesan</p>
+                    </button>
+                </div>
+                <!-- Teman ngeteh -->
+                <div class="w-52 bg-primary px-4 py-4 md:px-5 rounded-xl">
+                    <h5 class="font-semibold text-xl text-center">Teman Ngeteh</h5>
+                    <div class="py-3 space-y-[10px]">
+                        <div class="flex items-center gap-2">
+                            <img src="./dist/img/price/ceklist.svg" alt="bwarasa" class="w-6 md:w-7">
+                            <p class="font-medium text-base">50 biji bwarasa</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./dist/img/price/ceklist.svg" alt="bwarasa" class="w-6 md:w-7">
+                            <p class="font-medium text-base">Gratis antar</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./dist/img/price/ceklist.svg" alt="bwarasa" class="w-6 md:w-7">
+                            <p class="font-medium text-base">Mudah dipesan</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./dist/img/price/ceklist.svg" alt="bwarasa" class="w-6 md:w-7">
+                            <p class="font-medium text-base">Prioritas Utama</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <p class="font-semibold text-base pl-[3px]">Rp.50.000</p>
+                        </div>
+                    </div>
+                    <button class="w-full h-fit py-1 bg-secondary rounded-xl transition-colors hover:bg-opacity-50">
+                        <p class="font-semibold text-lg">Pesan</p>
+                    </button>
+                </div>
+                <!-- Coba-coba -->
+                <div class="w-52 border border-primary px-4 py-4 md:px-5 rounded-xl">
+                    <h5 class="font-semibold text-xl text-center">Oleh-oleh</h5>
+                    <div class="py-3 space-y-[10px]">
+                        <div class="flex items-center gap-2">
+                            <img src="./dist/img/price/ceklist.svg" alt="bwarasa" class="w-6 md:w-7">
+                            <p class="font-medium text-base">100 biji bwarasa</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./dist/img/price/ceklist.svg" alt="bwarasa" class="w-6 md:w-7">
+                            <p class="font-medium text-base">Gratis antar</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./dist/img/price/ceklist.svg" alt="bwarasa" class="w-6 md:w-7">
+                            <p class="font-medium text-base">Mudah dipesan</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="./dist/img/price/ceklist.svg" alt="bwarasa" class="w-6 md:w-7">
+                            <p class="font-medium text-base">Sangat prioritas</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <p class="font-semibold text-base pl-[3px]">Rp.100.000</p>
+                        </div>
+                    </div>
+                    <button class="w-full h-fit py-1 bg-primary rounded-xl transition-colors hover:bg-secondary">
+                        <p class="font-semibold text-lg">Pesan</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container pt-10 pb-6 mx-auto">
+        <div class="w-full flex justify-center">
+            <div class="flex justify-center items-center gap-2 py-2 w-full md:w-1/2 bg-primary rounded-lg cursor-pointer hover:bg-opacity-70">
+                <p class="font-semibold">Hubungi penjual</p>
+                <img src="./dist/img/footer/arrow.svg" alt="arrow bwarasa" class="w-5">
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
